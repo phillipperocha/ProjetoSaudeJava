@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ScrollingActivity"
+    tools:showIn="@layout/activity_scrolling">
+
+   <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Esse aplicativo é o trabalho final da disciplina da pós graduação de Desenvolvimento de
+Aplicações e Jogos para Dispositivos Móveis, sediada pelo Centro Universitário de João Pessoa - UNIPE. Ela tem como
+objetivo indicar ao usuário que tipo de estabelecimento procurar em casos de enfermidade. Além disso, de indicar
+o caminho e disponibilizar um número de contato." />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/foto_ubs"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/ubs"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="UBS - Unidade Básica de Saúde\n"
+                android:textSize="20dp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_margin="@dimen/text_margin"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Serviços:"/>
+
+            <TextView
+                android:layout_margin="@dimen/text_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vacina,  troca de curativos, injeções, atendimento médico, odontologico e enfernagem (atenção primária), pedriatria, ginecologia, obstetrícia"/>
+
+            <TextView
+                android:layout_margin="@dimen/text_margin"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Quando procurar:"/>
+
+            <TextView
+                android:layout_margin="@dimen/text_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="*Retirada preservativos\n
+* Realização de vacinas e curativos\n
+*Cuidados preventivos de cancer de colo do últero e mama\n
+*Bebês chorando sem razão aparente ou com comportamento diferente do habitual\n
+*Febre abaixo dos 39\n
+*Acompanhamento de condições frequentes (obesidade, gestação, hipertenção, diabetes)\n
+*Sintomas de resfriados, gripes e dores\n
+*Diarréia, vômito, problema na alimentação e ao evacuar.\n
+*Dificuldade para respirar, convulsões ou movimentos anormais.\n
+"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal">
+
+                <ImageButton
+                    android:onClick="mapaUbs"
+                    android:id="@+id/mapaUbs"
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="16dp"
+                    app:srcCompat="@drawable/world" />
+
+                <ImageButton
+                    android:onClick="telefonarUbs"
+                    android:id="@+id/telefoneUbs"
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="16dp"
+                    app:srcCompat="@drawable/call" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- UPA -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/foto_upa"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/upa"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="UPA - Unidade de Pronto Atendimento\n"
+                android:textSize="20dp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_margin="@dimen/text_margin"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Serviços:"/>
+
+            <TextView
+                android:layout_margin="@dimen/text_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vacina,  troca de curativos, injeções, atendimento médico, odontologico e enfernagem (atenção primária), pedriatria, ginecologia, obstetrícia"/>
+
+            <TextView
+                android:layout_margin="@dimen/text_margin"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Quando procurar:"/>
+
+            <TextView
+                android:layout_margin="@dimen/text_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="*Para atendimento de urGência e emergência em clínica médica\n
+*Em casos de pressão e febre alta\n
+*Em casos de fratura e cortes\n
+*Em casos de infarto e derrame\n
+*Para exames como raio x, eletrocardiograma e laboratoriais\n
+"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal">
+
+                <ImageButton
+                    android:onClick="mapaUpa"
+                    android:id="@+id/mapaUpa"
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="16dp"
+                    app:srcCompat="@drawable/world" />
+
+                <ImageButton
+                    android:onClick="telefonarUpa"
+                    android:id="@+id/telefoneUpa"
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="16dp"
+                    app:srcCompat="@drawable/call" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+       <!-- HOSPITAL -->
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical">
+
+           <ImageView
+               android:id="@+id/foto_hosp"
+               android:layout_width="match_parent"
+               android:layout_height="200dp"
+               android:src="@drawable/hospital"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Hospital\n"
+               android:textSize="20dp"
+               android:textAlignment="center"/>
+
+           <TextView
+               android:layout_margin="@dimen/text_margin"
+               android:textStyle="bold"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Serviços:"/>
+
+           <TextView
+               android:layout_margin="@dimen/text_margin"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Vacina,  troca de curativos, injeções, atendimento médico, odontologico e enfernagem (atenção primária), pedriatria, ginecologia, obstetrícia"/>
+
+           <TextView
+               android:layout_margin="@dimen/text_margin"
+               android:textStyle="bold"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Quando procurar:"/>
+
+           <TextView
+               android:layout_margin="@dimen/text_margin"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="*Em caso de urgência emergência\n
+*Em caso de hemorragias e fortes traumas\n
+*Para tratamentos médicos de média e alta complexidade(com especialidades)\n
+*Para exames mais complexos, que não são feitos em UPAS e UBs, como ressonância magnética, por exemplo\n
+*Para parto normal ou cesária\n
+*Para cirurgia e transplantes\n
+*Para acompanhamento médico pós-cirurgico\n
+
+"/>
+
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:gravity="center_horizontal">
+
+               <ImageButton
+                   android:onClick="mapaHosp"
+                   android:id="@+id/mapaHosp"
+                   android:layout_width="56dp"
+                   android:layout_height="56dp"
+                   android:layout_marginRight="16dp"
+                   android:layout_marginBottom="16dp"
+                   app:srcCompat="@drawable/world" />
+
+               <ImageButton
+                   android:onClick="telefonarHosp"
+                   android:id="@+id/telefoneHosp"
+                   android:layout_width="56dp"
+                   android:layout_height="56dp"
+                   android:layout_marginRight="16dp"
+                   android:layout_marginBottom="16dp"
+                   app:srcCompat="@drawable/call" />
+
+
+           </LinearLayout>
+       </LinearLayout>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
