@@ -16,14 +16,14 @@ import android.view.MenuItem;
 
 public class ScrollingActivity extends AppCompatActivity {
 
-    public String telefoneUbs = "8332147143";
-    public String enderecoUbs = "Rua Professora Egídia Wanderley Abrantes de Carvalho, 127";
+    public String telefoneUbs = "8332116712";
+    public String enderecoUbs = "Rua Mascarenhas De Morais, Mandacaru, João Pessoa";
 
-    public String telefoneUpa = "8332147143";
-    public String enderecoUpa = "Rua Professora Egídia Wanderley Abrantes de Carvalho, 127";
+    public String telefoneUpa = "8332149287";
+    public String enderecoUpa = "Av. Gov. Flávio Ribeiro Coutinho, 70 - Oceania, João Pessoa";
 
-    public String telefoneHosp = "8332147143";
-    public String enderecoHosp = "Rua Professora Egídia Wanderley Abrantes de Carvalho, 127";
+    public String telefoneHosp = "8332165700";
+    public String enderecoHosp = "R. Orestes Lisboa, SN - Pedro Gondim, João Pessoa - PB";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

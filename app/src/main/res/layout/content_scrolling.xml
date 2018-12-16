@@ -126,13 +126,14 @@ o caminho e disponibilizar um número de contato." />
                 android:textStyle="bold"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Serviços:"/>
+                android:text="Serviços: (24h/dia)"/>
 
             <TextView
                 android:layout_margin="@dimen/text_margin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Vacina,  troca de curativos, injeções, atendimento médico, odontologico e enfernagem (atenção primária), pedriatria, ginecologia, obstetrícia"/>
+                android:text="VExames como raios-X e eletrocardiograma, por exemplo, podem ser realizados na Unidade, mas os únicos especialistas disponíveis são clínica médica e pediatria. Se você possui um quadro crônico, por exemplo, e se dirige a uma UPA, é provável que você seja direcionado para uma UBS da sua região.
+\nPor mais que as Unidades de Pronto Atendimento (UPA) atendam emergências, os pacientes não ficam internados no local. Eles são estabilizados e encaminhados para um Hospital, ou ficam em observação por até 24h e recebem alta."/>
 
             <TextView
                 android:layout_margin="@dimen/text_margin"
@@ -212,7 +213,8 @@ o caminho e disponibilizar um número de contato." />
                android:layout_margin="@dimen/text_margin"
                android:layout_width="match_parent"
                android:layout_height="wrap_content"
-               android:text="Vacina,  troca de curativos, injeções, atendimento médico, odontologico e enfernagem (atenção primária), pedriatria, ginecologia, obstetrícia"/>
+               android:text="VEm situações de emergência que necessitam de internação, cirurgias ou exames mais elaborados, é o Hospital que vai ser capaz de realizar o atendimento. Apenas casos mais complexos e que precisam ser acompanhados devem seguir para os Hospitais.\n
+               Basicamente, o atendimento é feito de duas maneiras: através da urgência e emergência do pronto-socorro e do quadro médico que trabalha para investigar e tratar as doenças. Atenção: apenas nos Hospitais vocês consegue realizar cirurgias, acompanhamento cirúrgico, maternidade e exames de imagem."/>
 
            <TextView
                android:layout_margin="@dimen/text_margin"
